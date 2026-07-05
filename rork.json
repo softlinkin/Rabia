@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "Rabia Keyboard",
+      "path": "android-rabia-keyboard",
+      "framework": "kotlin"
+    }
+  ],
+  "$schema": "https://rork.com/schema/rork.json"
+}
