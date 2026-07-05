@@ -1,4 +1,4 @@
-package com.rork.rabiakeyboard.service
+package rabia.urdu.keyboard.service
 
 import android.content.Intent
 import android.inputmethodservice.InputMethodService
@@ -19,9 +19,9 @@ import androidx.savedstate.SavedStateRegistryOwner
 import androidx.lifecycle.setViewTreeLifecycleOwner
 import androidx.lifecycle.setViewTreeViewModelStoreOwner
 import androidx.savedstate.setViewTreeSavedStateRegistryOwner
-import com.rork.rabiakeyboard.ui.keyboard.KeyboardMode
-import com.rork.rabiakeyboard.ui.keyboard.KeyboardScreen
-import com.rork.rabiakeyboard.ui.theme.AppTheme
+import rabia.urdu.keyboard.ui.keyboard.KeyboardMode
+import rabia.urdu.keyboard.ui.keyboard.KeyboardScreen
+import rabia.urdu.keyboard.ui.theme.AppTheme
 
 /**
  * Rabia Keyboard IME service. Hosts a ComposeView as the soft keyboard view.

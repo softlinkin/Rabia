@@ -6,15 +6,24 @@ plugins {
 }
 
 android {
-    namespace = "com.rork.rabiakeyboard"
+    namespace = "rabia.urdu.keyboard"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.rork.rabiakeyboard"
+        applicationId = "rabia.urdu.keyboard"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
+    }
+
+    signingConfigs {
+        create("playUpload") {
+            storeFile = file("/home/user/rork-app/android-rabia-keyboard/app/play-upload-key.jks")
+            storePassword = "rabia-play-upload"
+            keyAlias = "upload"
+            keyPassword = "rabia-play-upload"
+        }
     }
 
     signingConfigs {

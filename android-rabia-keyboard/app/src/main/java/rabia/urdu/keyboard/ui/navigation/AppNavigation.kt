@@ -1,10 +1,10 @@
-package com.rork.rabiakeyboard.ui.navigation
+package rabia.urdu.keyboard.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.rork.rabiakeyboard.ui.screens.HomeScreen
+import rabia.urdu.keyboard.ui.screens.HomeScreen
 
 @Composable
 fun AppNavigation() {

@@ -10,11 +10,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:label="Rabia Keyboard"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RorkApp">
+        android:theme="@style/Theme.RabiaApp">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.RorkApp">
+            android:theme="@style/Theme.RabiaApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

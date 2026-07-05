@@ -1,4 +1,4 @@
-package com.rork.rabiakeyboard.ui.keyboard
+package rabia.urdu.keyboard.ui.keyboard
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn

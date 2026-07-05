@@ -1,4 +1,4 @@
-package com.rork.rabiakeyboard.ui.keyboard
+package rabia.urdu.keyboard.ui.keyboard
 
 data class KeyRow(val keys: List<KeyDef>)
 

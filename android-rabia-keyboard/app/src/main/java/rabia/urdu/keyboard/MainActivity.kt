@@ -1,4 +1,4 @@
-package com.rork.rabiakeyboard
+package rabia.urdu.keyboard
 
 import android.content.Context
 import android.content.Intent
@@ -45,8 +45,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
-import com.rork.rabiakeyboard.ui.keyboard.KeyboardScreen
-import com.rork.rabiakeyboard.ui.theme.AppTheme
+import rabia.urdu.keyboard.ui.keyboard.KeyboardScreen
+import rabia.urdu.keyboard.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -198,7 +198,7 @@ fun SetupScreen() {
                     onSwitchSymbols = {},
                     onSwitchLanguage = {},
                     isShifted = false,
-                    mode = com.rork.rabiakeyboard.ui.keyboard.KeyboardMode.URDU
+                    mode = rabia.urdu.keyboard.ui.keyboard.KeyboardMode.URDU
                 )
                 Spacer(modifier = Modifier.height(8.dp))
             }

@@ -1,4 +1,4 @@
-package com.rork.rabiakeyboard.ui.theme
+package rabia.urdu.keyboard.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

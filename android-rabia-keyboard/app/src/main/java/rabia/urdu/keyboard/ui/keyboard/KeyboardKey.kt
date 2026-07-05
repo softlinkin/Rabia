@@ -1,4 +1,4 @@
-package com.rork.rabiakeyboard.ui.keyboard
+package rabia.urdu.keyboard.ui.keyboard
 
 import android.view.HapticFeedbackConstants
 import android.view.MotionEvent
